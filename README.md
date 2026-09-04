@@ -30,7 +30,7 @@ The dashboard examines payment outcomes, failed-payment value, failure reasons, 
 
 ## Dashboard Preview
 
-![PhonePe Power BI Dashboard](./dashboard-page-1-home.png)
+![PhonePe Power BI Dashboard](./screenshots/dashboard-page-1-home.png)
 
 ## Business Problem
 
