@@ -11,7 +11,7 @@ The dashboard examines payment outcomes, failed-payment value, failure reasons, 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Dashboard Preview](#-dashboard-preview)
+- [Dashboard Preview](#dashboard-preview)
 - [Business Problem](#business-problem)
 - [Dashboard Features](#dashboard-features)
 - [Dashboard Pages](#dashboard-pages)
