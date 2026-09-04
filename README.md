@@ -8,6 +8,7 @@ The dashboard examines payment outcomes, failed-payment value, failure reasons, 
 
 > **Disclaimer:** This is a portfolio practice project built with synthetic data. It is not affiliated with PhonePe and does not represent real customer, transaction, or business data.
 
+---
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -28,10 +29,12 @@ The dashboard examines payment outcomes, failed-payment value, failure reasons, 
 - [Repository Structure](#repository-structure)
 - [Author](#author)
 
+---
 ## Dashboard Preview
 
 ![PhonePe Power BI Dashboard](./screenshots/dashboard-page-1-home.png)
 
+---
 ## Business Problem
 
 Digital-payment platforms process large volumes of transactions across multiple services. Even with a high success rate, failed transactions can affect customer trust, potential revenue, support workload, and service adoption.
@@ -44,6 +47,7 @@ The goal of this dashboard is to answer:
 - Which categories and months need the most operational attention?
 - What actions could reduce failed payments and improve user experience?
 
+---
 ## Dashboard Features
 
 - Five report pages: Home, Insurance, Loans, Money Transactions, and Recharge & Bills
@@ -55,6 +59,7 @@ The goal of this dashboard is to answer:
 - Service/category-level failed-payment comparisons
 - Navigation buttons in the left-side menu for moving between pages
 
+---
 ## Dashboard Pages
 
 ### Home
@@ -128,6 +133,7 @@ This page analyses Mobile Recharge, Electricity, DTH, and Cable TV payments.
 
 The failure reasons—Server Error, Wrong PIN, and Insufficient Amount—are closely distributed.
 
+---
 ## Key Insights
 
 - The overall transaction failure rate is approximately 4%, while failed-payment value is heavily concentrated in Loans.
@@ -137,6 +143,7 @@ The failure reasons—Server Error, Wrong PIN, and Insufficient Amount—are clo
 - Failed-payment amounts peak in July for the overall dashboard, Loans, and Recharge & Bills.
 - Bike Insurance, Gold Loan, UPI-ID transfers, and Mobile Recharge have the highest failed amount within their respective services.
 
+---
 ## Recommendations
 
 - Prioritise failure reduction in loan-related services, especially Gold Loan payments.
@@ -146,6 +153,7 @@ The failure reasons—Server Error, Wrong PIN, and Insufficient Amount—are clo
 - Use proactive alerts when failure rate or failed-payment amount crosses a defined threshold.
 - Review UPI-ID transfer flows because they have the highest failed value among transfer types.
 
+---
 ## Data Preparation
 
 The dataset was AI-generated and was already largely clean.
@@ -154,6 +162,7 @@ The main preparation step was standardising decimal monetary values to whole-num
 
 > Note: Real UPI payments can support decimal INR/paise amounts. Therefore, this should be described as a synthetic-data standardisation choice—not as a limitation of UPI or banking applications.
 
+---
 ## Data Model
 
 The Power BI model contains these tables:
@@ -167,6 +176,7 @@ The Power BI model contains these tables:
 
 The report uses fields such as Date, Transaction ID, Amount, Premium, Loan Amount, Payment Status, Failure Reason, and service/category type.
 
+---
 ## Tools Used
 
 - Microsoft Power BI
@@ -175,6 +185,7 @@ The report uses fields such as Date, Transaction ID, Amount, Premium, Loan Amoun
 - Interactive Visualisations
 - AI-generated dataset
 
+---
 ## Repository Structure
 
 ```text
@@ -190,6 +201,7 @@ PhonePe-Failed-Transaction-Analysis/
     └── recharge-bills-page.png
 ```
 
+---
 ## Author
 
 **Ashish Gautam**  
