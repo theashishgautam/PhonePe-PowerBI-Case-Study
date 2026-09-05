@@ -189,16 +189,17 @@ The report uses fields such as Date, Transaction ID, Amount, Premium, Loan Amoun
 ## Repository Structure
 
 ```text
-PhonePe-Failed-Transaction-Analysis/
+PhonePe-PowerBI-Case-Study/
 │
-├── PhonePe Case Study.pbix
-├── README.md
-└── screenshots/
-    ├── home-page.png
-    ├── insurance-page.png
-    ├── loans-page.png
-    ├── money-transactions-page.png
-    └── recharge-bills-page.png
+├── 📁 screenshots/
+│   ├── dashboard-page-1-home.png
+│   ├── dashboard-page-2-insurance.png
+│   ├── dashboard-page-3-loans.png
+│   ├── dashboard-page-4-money-transfer.png
+│   └── dashboard-page-5-recharge-&-bills.png
+│
+├── 📄 PhonePe Case Study.pbix
+└── 📄 README.md
 ```
 
 ---
